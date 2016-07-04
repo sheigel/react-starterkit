@@ -7,7 +7,7 @@ A React based application starter kit.
 node version 6 and npm version 3 or higher are required
 
 1. npm install
-2. npm typings install
+2. npm run typings install
 
 ## Usage
 
