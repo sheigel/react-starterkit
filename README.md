@@ -1,13 +1,11 @@
-# Project Name
-
-React StarterKit
+# React StarterKit
 
 A React based application starter kit.
 
 ## Installation
 
-npm install
-npm typings install
+1. npm install
+2. npm typings install
 
 ## Usage
 
