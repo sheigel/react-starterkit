@@ -5,7 +5,7 @@ var config = {
         "./src/app.tsx"
     ],
     output: {
-        path: path.resolve(__dirname, "build"),
+        path: path.resolve(__dirname, "public"),
         filename: "bundle.js"
     },
     resolve: {
@@ -19,7 +19,13 @@ var config = {
                 exclude: /node_modules/
             }
         ]
-    }
+    },
+    devServer: {
+        contentBase: "./public",
+        colors: true,
+        historyApiFallback: true,
+        inline: true
+    },
 };
 
 module.exports = config;
