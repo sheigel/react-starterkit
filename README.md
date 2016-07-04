@@ -1,6 +1,4 @@
-# Project Name
-
-React StarterKit
+# React StarterKit
 
 A React based application starter kit.
 
