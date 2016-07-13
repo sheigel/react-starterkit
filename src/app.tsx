@@ -1,6 +1,6 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom";
 
-import Hello from "./Hello";
+import FilterableToDoTable from "./FilterableToDoTable";
 
-ReactDOM.render(<Hello message="human" />, document.getElementById("root"));
+ReactDOM.render(<FilterableToDoTable />, document.getElementById("root"));
